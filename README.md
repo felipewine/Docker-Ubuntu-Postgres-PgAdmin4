@@ -118,7 +118,7 @@ Once you have some idea about what is. Let keep going!
 
 With these two files mentioned previously, you must create a directory on windows and run the .yml file as described above.
 
-For this step, I recommend you to use VS Code or Note++, feel free to use another one.
+For this step, I recommend you to use VS Code or Note++, feel free to use another one, if you want to
 
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 https://stackoverflow.com/questions/69293137/how-do-i-connect-to-host-docker-internal-postgres-instance
