@@ -3,6 +3,7 @@
 # Table of Contents
 
 ● [Installing Postgres and PgAdmin4 from yaml file](#installingpostgres)<br/>
+&emsp;◌ [Creating Folders](#creatingfolders)<br/>
 <!-- 
 ● [Installing Docker Ubuntu on Windows](#installingubuntu)<br/>
 &emsp;◌ [Pull a Base Image](#pullubuntuimage)<br/>
@@ -117,7 +118,8 @@ Once you have some idea about what is. Let keep going!
 
 With these two files mentioned previously, you must create a directory on windows and run the .yml file as described above.
 
- 
+For this step, I recommend you to use VS Code or Note++, feel free to use another one.
+
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 https://stackoverflow.com/questions/69293137/how-do-i-connect-to-host-docker-internal-postgres-instance
 -->
