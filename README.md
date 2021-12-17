@@ -12,3 +12,7 @@
 Before creating a Linux container, you need to pull a base image from Docker’s repository. Open a PowerShell or command prompt and use the following command to pull the latest Ubuntu base image from the repository:
 
 **_docker pull ubuntu_**
+
+Using the above command will pull the latest available version of Ubuntu from the repository. If you want to pull a specific version of Ubuntu, use a tag as shown here:
+
+**_docker pull ubuntu:18.04_**
