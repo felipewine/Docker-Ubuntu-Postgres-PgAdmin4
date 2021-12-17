@@ -99,6 +99,23 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
       }
     }
 
+Before keep going, I think it is essencial to explain what is Compose.
+
+Docker Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration. 
+
+Compose works in all environments: production, staging, development, testing, as well as CI workflows.
+
+Using Compose is basically a three-step process:
+
+Define your app’s environment with a Dockerfile so it can be reproduced anywhere.
+
+Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
+
+Run docker compose up and the Docker compose command starts and runs your entire app. You can alternatively run docker-compose up using the docker-compose binary.
+
+Once you have some idea about what is. Let keep going!
+
+With these two files you must create a directory on windows and
 
  
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
