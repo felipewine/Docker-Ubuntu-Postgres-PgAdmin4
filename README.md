@@ -39,3 +39,9 @@ To list the available images on the local computer, including information about 
 **_docker images_**
 
 ### Create a New Linux Container <a name="creatinganewlinux"></a>
+
+To create a new Linux container, we need the ID of the base image and the docker run command. In the command below, I’ve used the image ID for the latest version of Ubuntu in my local repository, and the bash terminal will launch once the container has started:
+ 
+docker run -i -t cd6d8154f1e1 /bin/bash
+
+<img src="https://user-images.githubusercontent.com/69978184/146474096-8962ea54-4629-42c8-aa0c-97edefcac4d0.png" width="600" height="400"/>
