@@ -95,9 +95,9 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
             "Username": "postgres",
             "PassFile": "/pgpass",
             "SSLMode": "prefer"
-      }
-    }
-  }
+       }
+     }
+   }
 
 
  
