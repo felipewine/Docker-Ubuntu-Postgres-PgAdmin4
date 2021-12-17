@@ -2,6 +2,7 @@
 
 # Table of Contents
 
+<!-- 
 ● [Installing Docker Ubuntu on Windows](#installingubuntu)<br/>
 &emsp;◌ [Pull a Base Image](#pullubuntuimage)<br/>
 &emsp;◌ [Create a New Linux Container](#creatinganewlinux)<br/>
@@ -47,6 +48,7 @@ docker run -i -t cd6d8154f1e1 /bin/bash
 <img src="https://user-images.githubusercontent.com/69978184/146474096-8962ea54-4629-42c8-aa0c-97edefcac4d0.png" width="600" height="400"/>
 
 The -i and -t parameters allow the bash process to start in the container, attaches the console to the process’s standard input, output, and standard error, and allocates a pseudo-tty text-only console. Once the container has been created, you’ll be presented with a bash prompt. Type hostname and press ENTER to see the container’s Linux hostname. You can stop the container at any time by typing exit and pressing ENTER. Exiting a container stops it from running.
- 
+-->
+
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 -->
