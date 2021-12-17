@@ -93,7 +93,7 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
             "Port": 15432,
             "MaintenanceDB": "postgres",
             "Username": "postgres",
-            "PassFile": "/pgpass",
+            "PassFile": "/pgpass/.pgpass",
             "SSLMode": "prefer"
         }
       }
