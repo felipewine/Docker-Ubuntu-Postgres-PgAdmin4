@@ -75,8 +75,10 @@ To set up our environment, we'll use a Docker compose file, and name this one as
           PGADMIN_DEFAULT_EMAIL: admin@admin.com
           PGADMIN_DEFAULT_PASSWORD: root
         ports:
-          - "5:80"
-
+          - "5050:80"
+        volumes:
+           - ./servers.json:/pgadmin4/servers.json # preconfigured servers/connections
+           - ./pgpass:/pgpass # passwords for the connections in this file
 
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 https://stackoverflow.com/questions/69293137/how-do-i-connect-to-host-docker-internal-postgres-instance
