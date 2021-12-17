@@ -16,3 +16,11 @@ Before creating a Linux container, you need to pull a base image from Docker’s
 Using the above command will pull the latest available version of Ubuntu from the repository. If you want to pull a specific version of Ubuntu, use a tag as shown here:
 
 **_docker pull ubuntu:18.04_**
+
+If you want to search the repository for Ubuntu images, use search as shown below:
+
+**_docker search ubuntu_**
+
+To list the available images on the local computer, including information about image size, image ID, and tags:
+
+**_docker images_**
