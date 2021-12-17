@@ -2,11 +2,11 @@
 
 # Table of Contents
 
-● [Installing Ubuntu on Docker](#installingubuntu)<br/>
+● [Installing Docker Ubuntu on Windows](#installingubuntu)<br/>
 &emsp;◌ [Pull a Base Image](#pullubuntuimage)<br/>
 &emsp;◌ [Create a New Linux Container](#creatinganewlinux)<br/>
 
-## Installing Ubuntu on Docker <a name="installingubuntu"></a>
+## Installing Docker Ubuntu on Windows <a name="installingubuntu"></a>
 
 ### Pull a Base Image <a name="pullubuntuimage"></a>
 
