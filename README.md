@@ -13,7 +13,7 @@ Before creating a Linux container, you need to pull a base image from Docker’s
 
 **_docker pull ubuntu_**
 
-<img src="https://user-images.githubusercontent.com/69978184/146469360-95744a7c-6795-4005-a1cd-f27981eacbd2.png" width="400" height="400"/>
+<img src="https://user-images.githubusercontent.com/69978184/146469360-95744a7c-6795-4005-a1cd-f27981eacbd2.png" width="600" height="400"/>
 
 Using the above command will pull the latest available version of Ubuntu from the repository. If you want to pull a specific version of Ubuntu, use a tag as shown here:
 
