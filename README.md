@@ -115,7 +115,7 @@ Run docker compose up and the Docker compose command starts and runs your entire
 
 Once you have some idea about what is. Let keep going!
 
-With these two files you must create a directory on windows and
+With these two files mentioned previously, you must create a directory on windows and run the .yml file as described above.
 
  
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
