@@ -85,6 +85,20 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
 
 **_servers.json_**
 
+   {
+     "Servers": {
+       "1": {
+         "Name": "docker_postgres",
+         "Group": "docker_postgres_group",
+         "Host": "host.docker.internal",
+         "Port": 15432,
+         "MaintenanceDB": "postgres",
+         "Username": "postgres",
+         "PassFile": "/pgpass",
+         "SSLMode": "prefer"
+       }
+     }
+   }
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 https://stackoverflow.com/questions/69293137/how-do-i-connect-to-host-docker-internal-postgres-instance
 -->
