@@ -15,7 +15,11 @@ Before creating a Linux container, you need to pull a base image from Docker’s
 
 <img src="https://user-images.githubusercontent.com/69978184/146469360-95744a7c-6795-4005-a1cd-f27981eacbd2.png" width="600" height="400"/>
 
-If you wanna remove the image just check the Image ID, and then remove it by executing the command "docker rmi <your-image-id>"
+If you wanna remove the image just check the Image ID, and then remove it by executing the command "docker rmi <your-image-id>"</a>
+
+**_docker rmi <your-image-id>_**
+
+<img src="https://user-images.githubusercontent.com/69978184/146469898-142e11eb-a0b9-4cd3-810f-9aa4741cf4fa.png" width="600" height="400"/>
 
 Using the above command will pull the latest available version of Ubuntu from the repository. If you want to pull a specific version of Ubuntu, use a tag as shown here:
 
