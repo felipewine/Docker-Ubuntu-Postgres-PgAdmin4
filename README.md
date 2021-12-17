@@ -55,7 +55,7 @@ The -i and -t parameters allow the bash process to start in the container, attac
 
 To set up our environment, we'll use a Docker compose file and .json file as well, we name both as docker-compose.yml and servers.json inside a folder
 
-**_docker-compose.yml_**
+**servers.json_**
 
      version: '3.8'
      services:
