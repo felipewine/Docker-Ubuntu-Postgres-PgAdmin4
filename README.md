@@ -83,8 +83,7 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
             - ./pgpass:/pgpass # passwords for the connections in this file
 
 **_servers.json_**
-
-        
+ 
       {
         "Servers": {
           "1": {
@@ -96,9 +95,9 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
             "Username": "postgres",
             "PassFile": "/pgpass",
             "SSLMode": "prefer"
+      }
     }
   }
-}
 
 
  
