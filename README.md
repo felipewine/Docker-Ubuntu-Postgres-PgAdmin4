@@ -4,6 +4,7 @@
 
 ● [Installing Ubuntu on Docker](#installingubuntu)<br/>
 &emsp;◌ [Pull a Base Image](#pullubuntuimage)<br/>
+&emsp;◌ [Create a New Linux Container](#creatinganewlinux)<br/>
 
 ## Installing Ubuntu on Docker <a name="installingubuntu"></a>
 
@@ -36,3 +37,5 @@ If you want to search the repository for Ubuntu images, use search as shown belo
 To list the available images on the local computer, including information about image size, image ID, and tags:
 
 **_docker images_**
+
+### Create a New Linux Container <a name="creatinganewlinux"></a>
