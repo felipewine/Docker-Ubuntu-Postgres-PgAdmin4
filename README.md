@@ -56,31 +56,32 @@ The -i and -t parameters allow the bash process to start in the container, attac
 To set up our environment, we'll use a Docker compose file and .json file as well, we name both as docker-compose.yml and servers.json inside a folder
 
 **_docker-compose.yml_**
-    version: '3.8'
-    services:
-      db:
-        container_name: pg_container
-        image: postgres
-        restart: always
-        environment:
-          POSTGRES_USER: root
-          POSTGRES_PASSWORD: root
-          POSTGRES_DB: test_db
-        ports:
-          - "15432:5432"
-      pgadmin:
-        container_name: pgadmin4_container
-        image: dpage/pgadmin4
-        restart: always
-        environment:
-          PGADMIN_DEFAULT_EMAIL: admin@admin.com
-          PGADMIN_DEFAULT_PASSWORD: root
-        ports:
-          - "5050:80"
-        volumes:
-           - ./servers.json:/pgadmin4/servers.json # preconfigured servers/connections
-           - ./pgpass:/pgpass # passwords for the connections in this file
- 
+
+     version: '3.8'
+     services:
+       db:
+         container_name: pg_container
+         image: postgres
+         restart: always
+         environment:
+           POSTGRES_USER: root
+           POSTGRES_PASSWORD: root
+           POSTGRES_DB: test_db
+         ports:
+           - "15432:5432"
+       pgadmin:
+         container_name: pgadmin4_container
+         image: dpage/pgadmin4
+         restart: always
+         environment:
+           PGADMIN_DEFAULT_EMAIL: admin@admin.com
+           PGADMIN_DEFAULT_PASSWORD: root
+         ports:
+           - "5050:80"
+         volumes:
+            - ./servers.json:/pgadmin4/servers.json # preconfigured servers/connections
+            - ./pgpass:/pgpass # passwords for the connections in this file
+
 
 **_docker-compose.yml_**
 
