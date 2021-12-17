@@ -11,4 +11,4 @@
 
 Before creating a Linux container, you need to pull a base image from Docker’s repository. Open a PowerShell or command prompt and use the following command to pull the latest Ubuntu base image from the repository:
 
-  docker pull ubuntu
+  1.docker pull ubuntu
