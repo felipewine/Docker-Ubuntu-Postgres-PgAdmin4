@@ -53,7 +53,7 @@ The -i and -t parameters allow the bash process to start in the container, attac
 
 ## Installing Postgres and PgAdmin4 from yaml file <a name="installingpostgres"></a>
 
-To set up our environment, we'll use a Docker compose file, and name this one as docker-compose.yml inside a folder
+To set up our environment, we'll use a Docker compose file and .json file as well, we name both as docker-compose.yml and servers.json inside a folder
 
     version: '3.8'
     services:
