@@ -55,7 +55,7 @@ The -i and -t parameters allow the bash process to start in the container, attac
 
 To set up our environment, we'll use a Docker compose file and .json file as well, we name both as docker-compose.yml and servers.json inside a folder
 
-**servers.json_**
+**docker-compose.yml_**
 
      version: '3.8'
      services:
@@ -83,7 +83,7 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
             - ./pgpass:/pgpass # passwords for the connections in this file
 
 
-**_docker-compose.yml_**
+**_servers.json_**
 
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 https://stackoverflow.com/questions/69293137/how-do-i-connect-to-host-docker-internal-postgres-instance
