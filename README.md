@@ -53,6 +53,8 @@ The -i and -t parameters allow the bash process to start in the container, attac
 
 ## Installing Postgres and PgAdmin4 from yaml file <a name="installingpostgres"></a>
 
+To set up our environment, we'll use a Docker compose file, and name this one as docker-compose.yml inside a folder
+
     version: '3.8'
     services:
       db:
@@ -64,7 +66,7 @@ The -i and -t parameters allow the bash process to start in the container, attac
           POSTGRES_PASSWORD: root
           POSTGRES_DB: test_db
         ports:
-          - "5432:5432"
+          - "15432:5432"
       pgadmin:
         container_name: pgadmin4_container
         image: dpage/pgadmin4
@@ -73,8 +75,9 @@ The -i and -t parameters allow the bash process to start in the container, attac
           PGADMIN_DEFAULT_EMAIL: admin@admin.com
           PGADMIN_DEFAULT_PASSWORD: root
         ports:
-          - "5050:80"
+          - "5:80"
 
 
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
+https://stackoverflow.com/questions/69293137/how-do-i-connect-to-host-docker-internal-postgres-instance
 -->
