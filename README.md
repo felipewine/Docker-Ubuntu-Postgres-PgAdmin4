@@ -26,6 +26,8 @@ If you wanna remove the image just check the Image ID with docker images, and th
 Using the above command will pull the latest available version of Ubuntu from the repository. If you want to pull a specific version of Ubuntu, use a tag as shown here:
 
 **_docker pull ubuntu:18.04_**
+ 
+<img src="https://user-images.githubusercontent.com/69978184/146472583-763510dd-3a9a-42ce-96a7-b59db6455a90.png" width="600" height="400"/>
 
 If you want to search the repository for Ubuntu images, use search as shown below:
 
