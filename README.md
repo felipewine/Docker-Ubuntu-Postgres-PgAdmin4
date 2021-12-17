@@ -1,4 +1,4 @@
-# Docker-Ubuntu-Postgres-PgAdmin4
+# Docker-Postgres-PgAdmin4
 
 # Table of Contents
 
