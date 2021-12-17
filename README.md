@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-● [Installing Postgres and PgAdmin4 from yaml file](#installingubuntu)<br/>
+● [Installing Postgres and PgAdmin4 from yaml file](#installingpostgres)<br/>
 <!-- 
 ● [Installing Docker Ubuntu on Windows](#installingubuntu)<br/>
 &emsp;◌ [Pull a Base Image](#pullubuntuimage)<br/>
@@ -51,5 +51,6 @@ docker run -i -t cd6d8154f1e1 /bin/bash
 The -i and -t parameters allow the bash process to start in the container, attaches the console to the process’s standard input, output, and standard error, and allocates a pseudo-tty text-only console. Once the container has been created, you’ll be presented with a bash prompt. Type hostname and press ENTER to see the container’s Linux hostname. You can stop the container at any time by typing exit and pressing ENTER. Exiting a container stops it from running.
 -->
 
+## Installing Postgres and PgAdmin4 from yaml file <a name="installingpostgres"></a>
 <!-- https://petri.com/docker-for-windows-create-a-linux-container-on-windows-10
 -->
