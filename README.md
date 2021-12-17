@@ -84,20 +84,45 @@ To set up our environment, we'll use a Docker compose file and .json file as wel
 
 **_servers.json_**
 
-   {
-     "Servers": {
-       "1": {
-         "Name": "docker_postgres",
-         "Group": "docker_postgres_group",
-         "Host": "host.docker.internal",
-         "Port": 15432,
-         "MaintenanceDB": "postgres",
-         "Username": "postgres",
-         "PassFile": "/pgpass",
-         "SSLMode": "prefer"
-       }
-     }
-   }
+     version: '3.8'
+     services:
+       db:
+         container_name: pg_container
+         image: postgres
+         restart: always
+         environment:
+           POSTGRES_USER: root
+           POSTGRES_PASSWORD: root
+           POSTGRES_DB: test_db
+         ports:
+           - "15432:5432"
+       pgadmin:
+         container_name: pgadmin4_container
+         image: dpage/pgadmin4
+         restart: always
+         environment:
+           PGADMIN_DEFAULT_EMAIL: admin@admin.com
+           PGADMIN_DEFAULT_PASSWORD: root
+         ports:
+           - "5050:80"
+         volumes:
+            - ./servers.json:/pgadmin4/servers.json # preconfigured servers/connections
+            - ./pgpass:/pgpass # passwords for the connections in this file
+        
+      {
+        "Servers": {
+          "1": {
+            "Name": "docker_postgres",
+            "Group": "docker_postgres_group",
+            "Host": "host.docker.internal",
+            "Port": 15432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "PassFile": "/pgpass",
+            "SSLMode": "prefer"
+    }
+  }
+}
 
 
  
